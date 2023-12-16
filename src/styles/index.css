@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 75vw;
+    min-width: 335px;
+    width: 75vw;
+    min-height: 32vh;
+    margin-top: 160px;
+    border-radius: 4px;
+    background-color: rgb(154, 190, 178);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.weather-box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.weather-box {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 15vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(226, 226, 226, 0.8);
+    border-radius: 4px;
+    color: #424242;
+}
+
+.day-name {
+    font-size: 14px;
+    font-weight: 550;
+    padding: 1px;
+}
+
+.day-month {
+    font-size: 13px;
+    font-weight: 650;
+    color: #7e7e7e;
+}
+
+.date-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.temprature-box {
+    display: flex;
+    align-items: baseline;
+    font-weight: 550;
+}
+
+.night-temp {
+    font-size: 11px;
+    font-weight: 550;
+    color: #7e7e7e;
+}
+
+.select-province-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: rgb(102, 102, 102);  
+}
+
+.dropdown {
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px; 
+    border-radius: 4px;
+}
+
+.dropdown-content {
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-item {
+    padding: 5px 10px;
+}
+
+.current-day {
+    background-color: rgba(252, 252, 252, 0.8);
+}
+
+.loading {
+    color: #424242;
+}
